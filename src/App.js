@@ -1,21 +1,19 @@
+import Header from './components/Header';
 import Resume from './components/Resume';
 import Bio from './components/Bio';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="bg-gray-100 py-4">
-        <h1 className="text-center text-2xl font-bold">My Personal Website</h1>
-      </header>
+      <Header />
       <main>
         <Resume />
         <Bio />
         <ContactForm />
       </main>
-      <footer className="bg-gray-100 py-4 text-center">
-        <p>&copy; 2024 My Website</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
