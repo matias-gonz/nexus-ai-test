@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #000080; /* Dark blue text */
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #add8e6; /* Light blue border */
+  background-color: #ffffff; /* White background */
+}
+
+.comment-section {
+  margin-bottom: 20px;
+}
+
+.comment-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #add8e6; /* Light blue border */
+}
+
+.comment-section button,
+.subscription-section button {
+  background-color: #000080; /* Dark blue button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscription-section input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #add8e6; /* Light blue border */
+}
